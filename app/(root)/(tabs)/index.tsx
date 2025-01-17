@@ -11,18 +11,6 @@ export default function Index() {
       }}
     >
       <Text className='font-bold text-2xl my-10 font-rubik'>Welcome to restate</Text>
-      <Link href="/sing-in">
-        Sign in
-      </Link>
-      <Link href="/explore">
-        Explore
-      </Link>
-      <Link href="/profile" className="">
-        Profile
-      </Link>
-      <Link href="/properties/1">
-        Sign in
-      </Link>
     </View>
   );
 }
