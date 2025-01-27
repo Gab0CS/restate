@@ -68,10 +68,8 @@ const Profile = () => {
             <SettingsItem icon={icons.wallet} title="Payments" />
           </View>
           <View className="flex flex-col mt-5 border-t pt-5 border-primary-200">
-            {settings.slice(2).map((item, index) =>(
-              <SettingsItem key={index} {...item}>
-
-              </SettingsItem>
+            {settings.slice(2).map((item, index) => (
+              <SettingsItem key={index} {...item} />
             ))}
           </View>
           <View className="flex flex-col mt-5 border-t pt-5 border-primary-200">
